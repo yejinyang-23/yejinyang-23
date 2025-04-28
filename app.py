@@ -45,6 +45,7 @@ elif st.session_state.stage == 'encounter':
             st.session_state.current_monster = random.choice(
                 ["고구마 드래곤", "춤추는 슬라임", "화난 당근", "노래하는 오우거"]
             )
+            
 
     if st.session_state.monster_count >= 3:
         st.session_state.stage = 'ending'
